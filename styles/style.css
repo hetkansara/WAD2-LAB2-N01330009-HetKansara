@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+nav div a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Lucida Sans';
+}
+nav div {
+    line-height: 40px;
+    min-height: 40px;
+    background-color: slategrey;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.web-title {
+    font-weight: 600;
+}
+.nav-list{
+    display: inline;
+}
+.nav-item {
+    display: inline;
+    list-style: none;
+}
+.form-container, .welcome-container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+footer div {
+    line-height: 40px;
+    min-height: 40px;
+    background-color: slategrey;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+footer div p {
+    margin-bottom: 0;
+    color:white;
+}
+label{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.checkbox-input label{
+    display: inline;
+}
+.required {
+    color: red;
+}
+.welcome-container p {
+    font-weight: 600;
+}
